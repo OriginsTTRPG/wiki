@@ -1,0 +1,29 @@
+site_name: Origins TTRPG Wiki
+site_url: https://ottrpg.merchantpug.net/
+
+nav:
+  - Home: index.md
+
+theme: 
+  name: material
+  logo: assets/icon.png
+  palette:
+    - media: "(prefers-color-scheme: dark)" 
+      primary: light-blue
+      accent: light-green
+      toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      primary: light-blue
+      accent: light-green
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - js/extra.js
